@@ -1,8 +1,16 @@
-header{
+body{
+    background-color: black;
 
 }
-top box{
-  height: 400px;
-  width: auto;
-  background-color: black;
+.topbox{
+    background-color: #888;
+    width:auto;
+    height:200px;
+}
+img{
+    width:inherit;
+    height:60%;
+    margin: 0 auto;
+    align-content: center;
+
 }
