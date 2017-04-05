@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: white;
 
 }
 .topbox{
@@ -8,9 +8,37 @@ body{
     height:200px;
 }
 img{
-    width:inherit;
+    width:auto;
     height:60%;
     margin: 0 auto;
-    align-content: center;
-
+    text-align: center;
+}
+.bottombox{
+  background-color: black;
+  width:auto;
+  height: 200px;
+}
+.midtext{
+  width: 300px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+.leftbutton{
+  background-color: green;
+  width: 100px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+.rightbutton{
+  background-color: green;
+  width: 100px;
+  height: auto;
+  text-align: center;
+  margin: 0 auto;
+}
+.textabovebuttons{
+  margin: 0 auto;
+  text-align: center;
 }
