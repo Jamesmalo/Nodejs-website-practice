@@ -1,22 +1,37 @@
 body{
     background-color: white;
-
+}
+.image{
+  width: auto;
+  height: 225px;
+  margin: 0 auto;
+  background-color: white;
+  padding-top: 25px;
+}
+.image img{
+  width: auto;
+  height: inherit;
 }
 .topbox{
-    background-color: #888;
-    width:auto;
-    height:200px;
-}
-img{
-    width:auto;
-    height:60%;
+    background-color:black;
+    width:inherit;
+    height:150px;
     margin: 0 auto;
     text-align: center;
+}
+.topbox img{
+  width: auto;
+  height: 50%;
+  padding-top: 10px;
+}
+li{
+  float: left;
 }
 .bottombox{
   background-color: black;
   width:auto;
   height: 200px;
+  margin-top: 600px;
 }
 .midtext{
   width: 300px;
