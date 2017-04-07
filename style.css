@@ -13,7 +13,7 @@ body{
   height: inherit;
 }
 .topbox{
-    background-color:black;
+    background-color:grey;
     width:inherit;
     height:150px;
     margin: 0 auto;
@@ -26,18 +26,17 @@ body{
 }
 li{
   float: left;
-}
-.bottombox{
-  background-color: black;
-  width:auto;
-  height: 200px;
-  margin-top: 600px;
+  text-align: center;
 }
 .midtext{
   width: 300px;
   height: auto;
   text-align: center;
   margin: 0 auto;
+}
+.textabovebuttons{
+  margin: 0 auto;
+  text-align: center;
 }
 .leftbutton{
   background-color: green;
@@ -53,7 +52,9 @@ li{
   text-align: center;
   margin: 0 auto;
 }
-.textabovebuttons{
-  margin: 0 auto;
-  text-align: center;
+.bottombox{
+  background-color: black;
+  width:auto;
+  height: 200px;
+  margin-top: 600px;
 }
