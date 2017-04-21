@@ -1,4 +1,6 @@
-body{}
+body{
+  height: 500px;
+}
 .banner{
   background-image: url("http://nodejs.org/static/images/interactive/background.jpg");
 }
@@ -7,6 +9,7 @@ body{}
   height: auto;
   margin: 0 auto;
   padding-top: 15px;
+  padding-bottom: 15px;
 
 }
 .image img{
@@ -30,8 +33,9 @@ body{}
   margin: 0 auto;
   padding-left: 5px;
   padding-right: 5px;
+  padding-top: 10px;
 }
-.midtext{
+.container{
   width: 300px;
   height: auto;
   text-align: center;
@@ -47,6 +51,7 @@ body{}
   height: auto;
   text-align: center;
   margin: 0 auto;
+  float: left;
 }
 #rightbutton{
   background-color: green;
@@ -54,10 +59,18 @@ body{}
   height: auto;
   text-align: center;
   margin: 0 auto;
+  float: left;
+}
+.btn1{
+  text-align: center;
+  margin: 0 auto;
 }
 .bottombox{
   background-color: black;
   width:auto;
   height: 200px;
-  margin-top: 600px;
+  margin-top: 200px;
+}
+.footertext{
+
 }

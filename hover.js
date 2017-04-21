@@ -1,20 +1,18 @@
 (function(){
   const doc = document;
-  let hover = doc.querySelector("#leftbutton");
-  hover.addEventListener("mouseover",function(){
-    hover.style.opacity=0.8;
+  let btn1 = doc.querySelector("#leftbutton");
+  btn1.addEventListener("mouseover",function(){
+    btn1.style.opacity=0.8;
   });
-  hover.addEventListener("mouseout",function(){
-    hover.style.opacity=1;
+  btn1.addEventListener("mouseout",function(){
+    btn1.style.opacity=1;
   });
-})()
-(function(){
-  const doc = document;
-  let hover = doc.querySelector("#rightbutton");
-  hover.addEventListener("mouseover",function(){
-    hover.style.opacity=0.8;
+
+  let btn2 = doc.querySelector("#rightbutton");
+  btn2.addEventListener("mouseover",function(){
+    btn2.style.opacity=0.8;
   });
-  hover.addEventListener("mouseout",function(){
-    hover.style.opacity=1;
+  btn2.addEventListener("mouseout",function(){
+    btn2.style.opacity=1;
   });
 })()
