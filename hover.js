@@ -15,4 +15,12 @@
   btn2.addEventListener("mouseout",function(){
     btn2.style.opacity=1;
   });
+
+  let main = doc.querySelector("#image");
+  main.addEventListener("mouseover",function(){
+    main.style.border.color="green";
+  });
+  main.addEventListener("mouseout",function(){
+    main.style.border.color="green";
+  });
 })()
